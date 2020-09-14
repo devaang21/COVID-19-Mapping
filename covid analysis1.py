@@ -3,7 +3,7 @@ import geopandas as gpd
 import PIL
 import io
 #Read the csv file
-data=pd.read_csv('D:\\time_series_covid19_recovered_global.csv')
+data=pd.read_csv('D:\\time_series_covid19_confirmed_global.csv')
 
 # Group the data by the country 
 data = data.groupby('Country/Region').sum()
